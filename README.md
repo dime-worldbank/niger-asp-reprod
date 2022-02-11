@@ -1,5 +1,5 @@
 # niger-asp-reprod
-This repository contains reproducibility code for the paper “Tackling Psychosocial and Capital Constraints Opens Pathways out of Poverty”
+This repository contains reproducibility code for the paper “Tackling Psychosocial and Capital Constraints Opens Pathways out of Poverty.”
 
-Link to data will be posted here upon package publication
+Data will be posted in the World Bank Microdata Library following package publication at this link: https://microdata.worldbank.org/index.php/catalog/4294.
 
