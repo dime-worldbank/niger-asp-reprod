@@ -1,21 +1,20 @@
 # niger-asp-reprod
 This repository contains reproducibility code for the paper “Tackling Psychosocial and Capital Constraints Opens Pathways out of Poverty.”
 
-Data will be posted in the World Bank Microdata Library following package publication at this link: https://microdata.worldbank.org/index.php/catalog/4294.
-
-
-
-
+Data is posted in the World Bank Microdata Library at: https://microdata.worldbank.org/index.php/catalog/4294.
 
 ## Code Structure
-
-niger-asp-reprod
-├───Baseline
-│   └───Output
-│       └───NER
-│           └───balance
-└───Joint
-    ├───Do
+<pre>
+niger-asp-reprod  
+├───Baseline  
+│   ├───cost_benefit
+│   │   └───NER
+│   │       └───ASPP_Productive_costing_Niger_2020.xlsx  
+│   └───Output  
+│       └───NER  
+│           └───balance  
+└───Joint  
+    ├───Do  
     │   ├───04_my_programs
     │   │   ├───03_regs
     │   │   └───04_general
@@ -27,9 +26,11 @@ niger-asp-reprod
             └───report_tables
                 └───vertical
                     └───interim
+</pre>
 
 
 ## Data Structure
+<pre>
 
 Sahel_analysis
 ├───Followup
@@ -42,11 +43,12 @@ Sahel_analysis
 │           └───05_Regstats
 │               └───mht
 └───Joint
-    ├───cost_benefit
-    │   └───NER
-    │       └───ASPP_Productive_costing_Niger_2020.xlsx
     └───Data
         ├───allrounds_NER_food.dta
         ├───allrounds_NER_hh.dta
         └───baseline_NER_hh.dta
+</pre>
+
+## Replication Steps
+To run the scripts, run the "00_master_ner.do" file at "niger-asp-reprod/Joint/Do/NER" after changing the first two paths as described in that file.
 
