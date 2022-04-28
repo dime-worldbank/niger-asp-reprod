@@ -1,5 +1,6 @@
 # niger-asp-reprod
-This repository contains reproducibility code for the paper “Tackling Psychosocial and Capital Constraints Opens Pathways out of Poverty.”
+This repository contains reproducibility code for Bossuroy, Thomas; Goldstein, Markus; Karimou, Bassirou; Karlan, Dean; Kazianga, Harounan; Premand, Patrick; Thomas, Catherine C.; Udry, Chris; Parienté, William; Vaillant, Julia and Kelsey A. Wright. 2022. Tackling psychosocial and capital constraints to alleviate poverty. Nature. https://doi.org/10.1038/s41586-022-04647-8
+
 
 Data is posted in the World Bank Microdata Library at: https://microdata.worldbank.org/index.php/catalog/4294.
 
