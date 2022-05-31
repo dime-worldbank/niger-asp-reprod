@@ -4,6 +4,9 @@ This repository contains reproducibility code for Bossuroy, Thomas; Goldstein, M
 
 Data is posted in the World Bank Microdata Library at: https://microdata.worldbank.org/index.php/catalog/4294.
 
+## Replication Steps
+To run the scripts, run the "00_master_ner.do" file at "niger-asp-reprod/Joint/Do/NER" after changing the first two paths as described in that file.
+
 ## Code Structure
 <pre>
 niger-asp-reprod  
@@ -49,7 +52,4 @@ Sahel_analysis
         ├───allrounds_NER_hh.dta
         └───baseline_NER_hh.dta
 </pre>
-
-## Replication Steps
-To run the scripts, run the "00_master_ner.do" file at "niger-asp-reprod/Joint/Do/NER" after changing the first two paths as described in that file.
 
