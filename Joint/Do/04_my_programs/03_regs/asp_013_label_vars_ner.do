@@ -99,7 +99,7 @@ if "`section'" == "all__a1_sen" | "`section'" == "bargraph" {
 	capture label var food_2_day_ppp 	   	"Food\n consumption\n (daily, USD)"
 	capture label var food_2_day_eq_ppp   	"Food\n consumption\n (daily, USD/adult eq.)"
 	capture label var  FIES_rvrs_raw		"Food\n security"
-	capture label var  FCS					"Dietary\n diversity"
+	capture label var  fcs					"Dietary\n diversity"
 }
 
 **------------------- PAP section: SECONDARY

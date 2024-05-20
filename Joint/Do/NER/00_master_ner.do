@@ -67,6 +67,10 @@ else {
 		global dir 		"X:/Dropbox" 		  		  			// DATA (Dropbox)
 		global git_dir	"C:/GitHub/sahel-asp/niger-asp-reprod"  // DO FILES and OUTPUT (GitHub)
 	}
+	else if "`c(username)'" == "merme" {
+		global dir 		"C:/Users/merme/Desktop/NER_paper" 		  		  			// DATA (Dropbox)
+		global git_dir	"C:/World Bank/Github/niger-asp-reprod"  // DO FILES and OUTPUT (GitHub)		
+	}
 	else {
 		display in red "change global file paths for this user"
 	}
@@ -97,7 +101,7 @@ foreach ph in Followup Followup_2 {
 	global phase `ph'
 	do "${joint_do}/01_GLOBAL_JOINT.do"
 	
-// 	do "${joint_do}/NER/06_asp_regs_new.do" // regs
+	do "${joint_do}/NER/06_asp_regs_new.do" // regs
 // 	do "${joint_do}/NER/06_asp_regs_food.do" // regs	
 }
 // do "${joint_do}/NER/06_asp_regs_hte.do" // regs

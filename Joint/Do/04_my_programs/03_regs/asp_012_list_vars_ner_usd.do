@@ -15,8 +15,8 @@ program define asp_012_list_vars_ner_usd, rclass
 						ctrl_earn_index ctrl_hh_index
  
  * Primary variables and FCS from secondary 1.2
- return local all__a1 consum_2_day_eq_ppp FIES_rvrs_raw FCS
- return local pap__a1 consum_2_day_eq_ppp FIES_rvrs_raw FCS
+ return local all__a1 consum_2_day_eq_ppp FIES_rvrs_raw fcs
+ return local pap__a1 consum_2_day_eq_ppp FIES_rvrs_raw fcs
 
 	 * Primary variables and FCS from secondary 1.2
 	 return local pap__a1b2 consum_2_day_eq_ppp ///
